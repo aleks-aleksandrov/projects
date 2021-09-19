@@ -1,0 +1,15 @@
+Drexel University
+Aleksandar Aleksandrov
+ECEC353 - Systems Programming
+
+This is a core project of the Systems Programming course at Drexel University. It's goal was to use techniques taught in class to create a simple bash shell.
+The project was created in two parts - p1 and p2. Part 2 is the complete final project of the course.
+
+As a starting point I was provided with a basic command line commands reader and I had to use what I learned for processes, how they work, how to create them and terminate them.
+
+The first part of the project was focused on creating children processes (using fork()) and making them execute the built in bash commands. In addtion I had to implement
+the BASH shell pipe command - the ability to pipeline multiple commands and transfer the output of one command to the input of the next one.
+
+The second part of the project was focused on implementing process groups, signals and signal handlers (part 2 pdf). 
+
+The task PDFs and README files are all included in thsi repository. In the pdfs you will be able to see all the requirements for the projects and the necessary functionality.
