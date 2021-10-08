@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../twos_compliment.srcs/sources_1/new/pe.vhd" \
+"../../../../twos_compliment.srcs/sources_1/new/array2sC.vhd" \
+
+# Do not sort compile order
+nosort

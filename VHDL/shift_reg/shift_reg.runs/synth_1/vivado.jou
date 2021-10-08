@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Sep 30 22:43:54 2021
+# Process ID: 13184
+# Current directory: D:/xlinx-projects/ECEC302-files/shift_reg/shift_reg.runs/synth_1
+# Command line: vivado.exe -log shift_reg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source shift_reg.tcl
+# Log file: D:/xlinx-projects/ECEC302-files/shift_reg/shift_reg.runs/synth_1/shift_reg.vds
+# Journal file: D:/xlinx-projects/ECEC302-files/shift_reg/shift_reg.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source shift_reg.tcl -notrace

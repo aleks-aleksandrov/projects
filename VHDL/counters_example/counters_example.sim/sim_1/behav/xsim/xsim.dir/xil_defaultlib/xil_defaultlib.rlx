@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/xlinx-projects/counters_example/counters_example.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/xlinx-projects/counters_example/counters_example.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v,1605526054,verilog,,,,blk_mem_gen_0,,,,,,,,
+D:/xlinx-projects/counters_example/counters_example.srcs/sources_1/ip/c_counter_binary_0/sim/c_counter_binary_0.vhd,1605526306,vhdl,,,,c_counter_binary_0,,,,,,,,
+D:/xlinx-projects/counters_example/counters_example.srcs/sources_1/new/udram.vhd,1605526782,vhdl,,,,udram,,,,,,,,

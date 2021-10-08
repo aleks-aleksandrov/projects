@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xlinx-projects/accumulator/accumulator.srcs/sources_1/ip/c_accum_0/sim/c_accum_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'c_accum_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/xlinx-projects/accumulator/accumulator.srcs/sources_1/new/accum.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'accum'

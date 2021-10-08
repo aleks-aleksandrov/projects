@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../array_adder_seq.srcs/sources_1/new/add3bits.vhd" \
+"../../../../array_adder_seq.srcs/sources_1/new/synch_adder.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Sep 30 14:48:20 2020
+# Process ID: 13732
+# Current directory: D:/xlinx-projects/cascadingreg/cascadingreg.runs/impl_1
+# Command line: vivado.exe -log cascade_reg4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source cascade_reg4.tcl -notrace
+# Log file: D:/xlinx-projects/cascadingreg/cascadingreg.runs/impl_1/cascade_reg4.vdi
+# Journal file: D:/xlinx-projects/cascadingreg/cascadingreg.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source cascade_reg4.tcl -notrace
+Command: link_design -top cascade_reg4 -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Z1[0]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z1[0]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z1[1]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z1[1]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z1[2]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z1[2]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z1[3]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z1[3]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[0]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[0]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[1]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[1]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[2]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[2]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[3]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Z2[4]'. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/constrs_1/imports/MasterXDC/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'reg' instantiated as 'R1'. 2 instances of this cell are unresolved black boxes. [D:/xlinx-projects/cascadingreg/cascadingreg.srcs/sources_1/new/cascadereg4.vhd:35]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 571.594 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 16 Warnings, 17 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 575.633 ; gain = 321.363
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'R1' of type 'reg' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+ERROR: [DRC INBB-3] Black Box Instances: Cell 'R2' of type 'reg' has undefined contents and is considered a black box.  The contents of this cell must be defined for opt_design to complete successfully.
+INFO: [Project 1-461] DRC finished with 2 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.121 . Memory (MB): peak = 575.633 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+10 Infos, 16 Warnings, 17 Critical Warnings and 3 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 30 14:48:29 2020...

@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../signals-casc-reg.srcs/sources_1/new/signal_reg4.vhd" \
+
+# Do not sort compile order
+nosort

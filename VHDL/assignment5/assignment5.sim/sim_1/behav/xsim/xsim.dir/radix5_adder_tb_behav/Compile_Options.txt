@@ -1,0 +1,1 @@
+-wto "1c8067bf792a46b98d072fa57a577cb4" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "radix5_adder_tb_behav" "xil_defaultlib.radix5_adder_tb" -log "elaborate.log" 

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../assignment5.srcs/sources_1/new/radix5_adder.vhd" \
+"../../../../assignment5.srcs/sources_1/new/radix5_adder_tb.vhd" \
+
+# Do not sort compile order
+nosort

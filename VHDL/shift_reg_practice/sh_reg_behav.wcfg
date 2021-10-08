@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sh_reg_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="sh_reg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="135000fs"></ZoomStartTime>
+      <ZoomEndTime time="1053001fs"></ZoomEndTime>
+      <Cursor1Time time="900000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/sh_reg/x" type="logic">
+      <obj_property name="ElementShortName">x</obj_property>
+      <obj_property name="ObjectShortName">x</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sh_reg/z" type="array">
+      <obj_property name="ElementShortName">z[2:0]</obj_property>
+      <obj_property name="ObjectShortName">z[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sh_reg/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sh_reg/ck" type="logic">
+      <obj_property name="ElementShortName">ck</obj_property>
+      <obj_property name="ObjectShortName">ck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sh_reg/temp" type="array">
+      <obj_property name="ElementShortName">temp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sh_reg/M" type="other">
+      <obj_property name="ElementShortName">M</obj_property>
+      <obj_property name="ObjectShortName">M</obj_property>
+   </wvobject>
+</wave_config>

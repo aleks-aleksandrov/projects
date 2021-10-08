@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3433037906103219682  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 406991ef4a81499c8c9b4e662f555b8b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot array2sC_behav xil_defaultlib.array2sC" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "D:\\XILINX\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/array2sC_behav/xsimk.exe\"   \"xsim.dir/array2sC_behav/obj/xsim_0.win64.obj\" \"xsim.dir/array2sC_behav/obj/xsim_1.win64.obj\" -L\"D:\\XILINX\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
