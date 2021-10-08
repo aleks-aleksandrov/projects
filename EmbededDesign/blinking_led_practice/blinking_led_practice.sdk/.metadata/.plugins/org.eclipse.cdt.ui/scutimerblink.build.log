@@ -1,0 +1,34 @@
+22:06:25 **** Auto Build of configuration Debug for project scutimerblink ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../scutimerblink_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:109:14: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+  TimerConfig = XScuTimer_LookupConfig(XPAR_PS7_SCUTIMER_0_DEVICE_ID);
+              ^
+../src/helloworld.c:110:47: warning: passing argument 2 of 'XScuTimer_CfgInitialize' from incompatible pointer type [-Wincompatible-pointer-types]
+  status = XScuTimer_CfgInitialize(&TimerInst, TimerConfig, TimerConfig->BaseAddress);
+                                               ^~~~~~~~~~~
+In file included from ../src/helloworld.c:9:0:
+../../scutimerblink_bsp/ps7_cortexa9_0/include/xscutimer.h:352:5: note: expected 'XScuTimer_Config * {aka struct <anonymous> *}' but argument is of type 'XTmrCtr_Config * {aka struct <anonymous> *}'
+ s32 XScuTimer_CfgInitialize(XScuTimer *InstancePtr,
+     ^~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: scutimerblink.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../scutimerblink_bsp/ps7_cortexa9_0/lib -o "scutimerblink.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: scutimerblink.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size scutimerblink.elf  |tee "scutimerblink.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  77976	   3396	  23424	 104796	  1995c	scutimerblink.elf
+'Finished building: scutimerblink.elf.size'
+' '
+
+22:06:27 Build Finished (took 1s.159ms)
+

@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/knightrider_test_2/ipshared/064d/hdl/knight_rd_ip_v1_0_S00_AXI.vhd" \
+"../../../bd/knightrider_test_2/ipshared/064d/src/user_logic.vhd" \
+"../../../bd/knightrider_test_2/ipshared/064d/hdl/knight_rd_ip_v1_0.vhd" \
+"../../../bd/knightrider_test_2/ip/knightrider_test_2_knight_rd_ip_0_0/sim/knightrider_test_2_knight_rd_ip_0_0.vhd" \
+"../../../bd/knightrider_test_2/ip/knightrider_test_2_rst_ps7_0_50M_0/sim/knightrider_test_2_rst_ps7_0_50M_0.vhd" \
+"../../../bd/knightrider_test_2/sim/knightrider_test_2.vhd" \
+
+nosort

@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+
+// Parameter definitions
+// SCU Snoop Control Unit GIC Generic Interrupt Control
+#define INTC_DEVICE_ID XPAR_PS7_SCUGIC_0_DEVICE_ID
+#define BTNS_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+#define LEDS_DEVICE_ID XPAR_AXI_GPIO_1_DEVICE_ID
+#define INTC_GPIO_INTERRUPT_ID XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR
+#define BTN_INT XGPIO_IR_CH1_MASK
+
+//--------------------------
+//Declare LED instance, BTN instance
+//--------------------------
+XGpio LEDInst, BTNInst;
+//----------------------------------------------
+//Declare snoop control unit generic interrupt controller
+//-----------------------------------------------
+XScuGic INTCInst;
+
+static int led_value;
+static int btn_value;
+//----------------------------------------------------
+// PROTOTYPE FUNCTIONS
+//----------------------------------------------------
+static void BTN_Intr_Handler(void *InstancePtr);
+static int InterruptSystemSetup(XScuGic *XScuGicInstancePtr);
+static int IntcInitFunction(u16 DeviceId, XGpio *GpioInstancePtr);
+
+int main()
+{
+    init_platform();
+
+    print("Hello World\n\r");
+
+    cleanup_platform();
+    return 0;
+}

@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_axi_timer_0_0/sim/stopwatch_axi_timer_0_0.vhd" \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_axi_gpio_0_0/sim/stopwatch_axi_gpio_0_0.vhd" \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_rst_ps7_0_50M_0/sim/stopwatch_rst_ps7_0_50M_0.vhd" \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/sim/stopwatch.vhd" \
+
+nosort

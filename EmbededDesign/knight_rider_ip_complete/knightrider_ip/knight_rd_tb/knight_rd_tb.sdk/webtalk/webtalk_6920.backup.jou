@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Tue Feb 16 01:04:50 2021
+# Process ID: 6920
+# Current directory: D:/xlinx-projects/knightrider_ip/knight_rd_tb/knight_rd_tb.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/xlinx-projects/knightrider_ip/knight_rd_tb/knight_rd_tb.sdk/webtalk/webtalk.log
+# Journal file: D:/xlinx-projects/knightrider_ip/knight_rd_tb/knight_rd_tb.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

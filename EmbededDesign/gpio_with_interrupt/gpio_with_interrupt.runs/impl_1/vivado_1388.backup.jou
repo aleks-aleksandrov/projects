@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 28 18:02:17 2021
+# Process ID: 1388
+# Current directory: D:/xlinx-projects/gpio_with_interrupt/gpio_with_interrupt.runs/impl_1
+# Command line: vivado.exe -log gpio_interrupt_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gpio_interrupt_wrapper.tcl -notrace
+# Log file: D:/xlinx-projects/gpio_with_interrupt/gpio_with_interrupt.runs/impl_1/gpio_interrupt_wrapper.vdi
+# Journal file: D:/xlinx-projects/gpio_with_interrupt/gpio_with_interrupt.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source gpio_interrupt_wrapper.tcl -notrace

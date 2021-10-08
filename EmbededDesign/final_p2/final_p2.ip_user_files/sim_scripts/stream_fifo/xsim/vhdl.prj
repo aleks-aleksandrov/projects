@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/stream_fifo/ip/stream_fifo_axi_fifo_mm_s_0_0/sim/stream_fifo_axi_fifo_mm_s_0_0.vhd" \
+"../../../bd/stream_fifo/ip/stream_fifo_rst_ps7_0_50M_0/sim/stream_fifo_rst_ps7_0_50M_0.vhd" \
+"../../../bd/stream_fifo/sim/stream_fifo.vhd" \
+
+nosort

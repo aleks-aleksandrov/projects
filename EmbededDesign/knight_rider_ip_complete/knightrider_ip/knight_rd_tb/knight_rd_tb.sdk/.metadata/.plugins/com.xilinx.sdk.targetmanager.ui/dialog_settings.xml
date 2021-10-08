@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="knightrider_test_2_wrapper_hw_platform_0-device"/>
+	<item value="knightrider_test_2_wrapper.bit" key="knightrider_test_2_wrapper_hw_platform_0-bitFile"/>
+	<item value="knightrider_test_2_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="" key="knightrider_test_2_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Local" key="knightrider_test_2_wrapper_hw_platform_0-target"/>
+	<item value="false" key="knightrider_test_2_wrapper_hw_platform_0-partial_bit"/>
+</section>

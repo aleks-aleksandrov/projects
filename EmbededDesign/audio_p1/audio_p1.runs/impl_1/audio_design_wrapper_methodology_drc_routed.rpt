@@ -1,0 +1,358 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Feb 25 16:31:33 2021
+| Host         : DESKTOP-P7INVOJ running 64-bit major release  (build 9200)
+| Command      : report_methodology -file audio_design_wrapper_methodology_drc_routed.rpt -pb audio_design_wrapper_methodology_drc_routed.pb -rpx audio_design_wrapper_methodology_drc_routed.rpx
+| Design       : audio_design_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 64
++-----------+----------+------------------------------------------------+------------+
+| Rule      | Severity | Description                                    | Violations |
++-----------+----------+------------------------------------------------+------------+
+| TIMING-6  | Warning  | No common primary clock between related clocks | 2          |
+| TIMING-7  | Warning  | No common node between related clocks          | 2          |
+| TIMING-16 | Warning  | Large setup violation                          | 42         |
+| TIMING-18 | Warning  | Missing input or output delay                  | 18         |
++-----------+----------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-6#1 Warning
+No common primary clock between related clocks  
+The clocks clk_fpga_0 and clk_fpga_2 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_fpga_0] -to [get_clocks clk_fpga_2]
+Related violations: <none>
+
+TIMING-6#2 Warning
+No common primary clock between related clocks  
+The clocks clk_fpga_2 and clk_fpga_0 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_fpga_2] -to [get_clocks clk_fpga_0]
+Related violations: <none>
+
+TIMING-7#1 Warning
+No common node between related clocks  
+The clocks clk_fpga_0 and clk_fpga_2 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_fpga_0] -to [get_clocks clk_fpga_2]
+Related violations: <none>
+
+TIMING-7#2 Warning
+No common node between related clocks  
+The clocks clk_fpga_2 and clk_fpga_0 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_fpga_2] -to [get_clocks clk_fpga_0]
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -2.792 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/tick_reg/C (clocked by clk_fpga_2) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tick_d1_reg/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -2.879 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_sync_fifo_in_reg[0]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -2.879 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_sync_fifo_in_reg[1]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -2.879 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_sync_fifo_in_reg[2]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -2.879 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_sync_fifo_in_reg[3]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -2.879 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_sync_fifo_in_reg[4]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -2.889 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/tick_reg/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/tick_d1_reg/D (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -3.016 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/tick_reg/C (clocked by clk_fpga_2) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/tick_d1_reg/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -3.177 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/fifo_reg_0_3_0_4/RAMA_D1/CLK (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[1]/D (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -3.305 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMA/CLK (clocked by clk_fpga_2) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -3.326 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/fifo_reg_0_3_0_4/RAMA/CLK (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[0]/D (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -3.326 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/fifo_reg_0_3_0_4/RAMB/CLK (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[2]/D (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -3.352 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/fifo_reg_0_3_0_4/RAMB_D1/CLK (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[3]/D (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -3.383 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMA_D1/CLK (clocked by clk_fpga_2) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -3.456 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[0]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -3.456 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[4]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMA/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMA_D1/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMB/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMB_D1/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMC/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMC_D1/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMD/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -3.469 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMD_D1/WE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -3.512 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMC/CLK (clocked by clk_fpga_2) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -3.517 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[1]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -3.517 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[2]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -3.517 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[3]/CE (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -3.633 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/fifo_reg_0_3_0_4/RAMB/CLK (clocked by clk_fpga_2) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/out_data_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -3.638 ns between audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/fifo_reg_0_3_0_4/RAMC/CLK (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/out_data_reg[4]/D (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -3.695 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/tick_reg/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -3.695 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/wr_addr_reg[0]/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -3.695 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/rx_gen.rx_sync/wr_addr_reg[1]/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -3.695 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tick_reg/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/BCLK_O_reg[0]/S (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/LRCLK_O_reg[0]/S (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/LRCLK_O_reg[0]_lopt_replica/S (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/SDATA_O_reg[0]/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/rd_addr_reg[0]/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/rd_addr_reg[1]/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/tick_d1_reg/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -3.843 ns between audio_design_i/rst_ps7_0_100M/U0/ACTIVE_LOW_PR_OUT_DFF[0].FDRE_PER_N/C (clocked by clk_fpga_0) and audio_design_i/axi_i2s_adi_0/U0/ctrl/tx_sync/tick_d2_reg/R (clocked by clk_fpga_2). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on AC_SDATA_I[0] relative to clock(s) clk_fpga_2
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on btns_4bits_tri_i[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on sws_4bits_tri_i[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sws_4bits_tri_i[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on sws_4bits_tri_i[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on sws_4bits_tri_i[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on AC_BCLK[0] relative to clock(s) clk_fpga_2
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on AC_MUTE_N relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on AC_PBLRC[0] relative to clock(s) clk_fpga_2
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on AC_RECLRC[0] relative to clock(s) clk_fpga_2
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on AC_SDATA_O[0] relative to clock(s) clk_fpga_2
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on leds_4bits_tri_o[0] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on leds_4bits_tri_o[1] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on leds_4bits_tri_o[2] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on leds_4bits_tri_o[3] relative to clock(s) clk_fpga_0
+Related violations: <none>
+
+

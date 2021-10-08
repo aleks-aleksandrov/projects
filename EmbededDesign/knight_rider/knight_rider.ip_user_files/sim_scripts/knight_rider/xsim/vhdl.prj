@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../../knight_rider.srcs/sources_1/bd/knight_rider/ip/knight_rider_axi_gpio_0_0/sim/knight_rider_axi_gpio_0_0.vhd" \
+"../../../../knight_rider.srcs/sources_1/bd/knight_rider/ip/knight_rider_axi_gpio_1_0/sim/knight_rider_axi_gpio_1_0.vhd" \
+"../../../../knight_rider.srcs/sources_1/bd/knight_rider/ip/knight_rider_rst_ps7_0_50M_0/sim/knight_rider_rst_ps7_0_50M_0.vhd" \
+"../../../../knight_rider.srcs/sources_1/bd/knight_rider/ip/knight_rider_axi_timer_0_0/sim/knight_rider_axi_timer_0_0.vhd" \
+
+nosort

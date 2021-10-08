@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../knight_rd_tb.srcs/sources_1/bd/knightrider_test_2/ipshared/ec67/hdl" --include "../../../../knight_rd_tb.srcs/sources_1/bd/knightrider_test_2/ipshared/70cf/hdl" --include "../../../../knight_rd_tb.srcs/sources_1/bd/knightrider_test_2/ip/knightrider_test_2_processing_system7_0_0" \
+"../../../bd/knightrider_test_2/ip/knightrider_test_2_processing_system7_0_0/sim/knightrider_test_2_processing_system7_0_0.v" \
+"../../../bd/knightrider_test_2/ip/knightrider_test_2_auto_pc_0/sim/knightrider_test_2_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

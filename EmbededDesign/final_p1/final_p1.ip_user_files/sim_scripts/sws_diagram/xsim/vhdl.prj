@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/sws_diagram/ip/sws_diagram_axi_gpio_0_0/sim/sws_diagram_axi_gpio_0_0.vhd" \
+"../../../bd/sws_diagram/ip/sws_diagram_rst_ps7_0_50M_0/sim/sws_diagram_rst_ps7_0_50M_0.vhd" \
+"../../../bd/sws_diagram/sim/sws_diagram.vhd" \
+
+nosort

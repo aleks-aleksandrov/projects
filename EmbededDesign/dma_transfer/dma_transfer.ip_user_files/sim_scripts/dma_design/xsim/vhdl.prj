@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/dma_design/ip/dma_design_axi_dma_0_1/sim/dma_design_axi_dma_0_1.vhd" \
+"../../../bd/dma_design/ip/dma_design_floating_point_0_1/sim/dma_design_floating_point_0_1.vhd" \
+"../../../bd/dma_design/ip/dma_design_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_f1fb_psr_aclk_0.vhd" \
+"../../../bd/dma_design/ip/dma_design_smartconnect_0_0/sim/dma_design_smartconnect_0_0.vhd" \
+"../../../bd/dma_design/ip/dma_design_rst_ps7_0_50M_3/sim/dma_design_rst_ps7_0_50M_3.vhd" \
+"../../../bd/dma_design/sim/dma_design.vhd" \
+
+nosort

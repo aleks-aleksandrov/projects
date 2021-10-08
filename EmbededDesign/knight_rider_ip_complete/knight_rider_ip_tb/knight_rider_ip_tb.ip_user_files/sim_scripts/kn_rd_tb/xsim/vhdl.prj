@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/kn_rd_tb/ipshared/f762/hdl/kn_rd_v1_0_S00_AXI.vhd" \
+"../../../bd/kn_rd_tb/ipshared/f762/src/user_logic.vhd" \
+"../../../bd/kn_rd_tb/ipshared/f762/hdl/kn_rd_v1_0.vhd" \
+"../../../bd/kn_rd_tb/ip/kn_rd_tb_kn_rd_0_0/sim/kn_rd_tb_kn_rd_0_0.vhd" \
+"../../../bd/kn_rd_tb/ip/kn_rd_tb_rst_ps7_0_50M_0/sim/kn_rd_tb_rst_ps7_0_50M_0.vhd" \
+"../../../bd/kn_rd_tb/sim/kn_rd_tb.vhd" \
+
+nosort

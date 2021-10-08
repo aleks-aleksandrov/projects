@@ -1,0 +1,9 @@
+verilog xil_defaultlib --include "../../../../stopwatch.srcs/sources_1/bd/stopwatch/ipshared/ec67/hdl" --include "../../../../stopwatch.srcs/sources_1/bd/stopwatch/ipshared/70cf/hdl" --include "../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_processing_system7_0_0" \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_processing_system7_0_0/sim/stopwatch_processing_system7_0_0.v" \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_xlconcat_0_0/sim/stopwatch_xlconcat_0_0.v" \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_xbar_0/sim/stopwatch_xbar_0.v" \
+"../../../../stopwatch.srcs/sources_1/bd/stopwatch/ip/stopwatch_auto_pc_0/sim/stopwatch_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

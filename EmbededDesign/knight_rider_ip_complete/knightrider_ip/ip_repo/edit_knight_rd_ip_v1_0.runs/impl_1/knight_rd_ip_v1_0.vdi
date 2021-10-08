@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Feb 16 00:46:38 2021
+# Process ID: 3664
+# Current directory: d:/xlinx-projects/knightrider_ip/ip_repo/edit_knight_rd_ip_v1_0.runs/impl_1
+# Command line: vivado.exe -log knight_rd_ip_v1_0.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source knight_rd_ip_v1_0.tcl -notrace
+# Log file: d:/xlinx-projects/knightrider_ip/ip_repo/edit_knight_rd_ip_v1_0.runs/impl_1/knight_rd_ip_v1_0.vdi
+# Journal file: d:/xlinx-projects/knightrider_ip/ip_repo/edit_knight_rd_ip_v1_0.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source knight_rd_ip_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/xlinx-projects/knightrider_ip/ip_repo/knight_rd_ip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/xlinx-projects/knightrider_ip/ip_repo/kn_rd_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/XILINX/Vivado/2018.3/data/ip'.
+Command: link_design -top knight_rd_ip_v1_0 -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Constraints 18-4404] ShapeDB restore issue, file d:/xlinx-projects/knightrider_ip/ip_repo/edit_knight_rd_ip_v1_0.runs/synth_1/knight_rd_ip_v1_0/knight_rd_ip_v1_0.shape does not exists. shapeDB will be regenerated.
+ERROR: [Designutils 20-1449] File 'd:/xlinx-projects/knightrider_ip/ip_repo/edit_knight_rd_ip_v1_0.runs/synth_1/knight_rd_ip_v1_0/knight_rd_ip_v1_0.incr' does not exists.
+10 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+link_design completed successfully
+ERROR: [Common 17-70] Application Exception: Restore timing info for incremental flow failed due to earlier errors.
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 16 00:46:52 2021...

@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../final_p2.srcs/sources_1/bd/stream_fifo/ipshared/ec67/hdl" --include "../../../../final_p2.srcs/sources_1/bd/stream_fifo/ipshared/70cf/hdl" --include "../../../../final_p2.srcs/sources_1/bd/stream_fifo/ip/stream_fifo_processing_system7_0_0" \
+"../../../bd/stream_fifo/ip/stream_fifo_processing_system7_0_0/sim/stream_fifo_processing_system7_0_0.v" \
+"../../../bd/stream_fifo/ip/stream_fifo_auto_pc_0/sim/stream_fifo_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

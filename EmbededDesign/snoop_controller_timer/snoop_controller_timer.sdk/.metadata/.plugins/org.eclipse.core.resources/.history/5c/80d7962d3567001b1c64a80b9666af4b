@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include "platform.h"
+#include "xil_printf.h"
+#include "xscutimer.h"
+#include "xparameters.h"
+#include "xscugic.h"
+
+#define COUNT_MAX 10
+
+static void TimerInst_Intr_handler(void *CallBackRef);
+int count = 0;
+
+int main()
+{
+    init_platform();
+
+    print("Hello World\n\r");
+
+    cleanup_platform();
+    return 0;
+}

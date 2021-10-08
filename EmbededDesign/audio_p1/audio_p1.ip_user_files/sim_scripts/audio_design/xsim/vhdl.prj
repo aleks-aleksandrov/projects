@@ -1,0 +1,28 @@
+vhdl axi_i2s_adi_v1_00_a  \
+"../../../bd/audio_design/ipshared/922f/hdl/i2s_tx.vhd" \
+"../../../bd/audio_design/ipshared/922f/hdl/i2s_controller.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/audio_design/ipshared/922f/hdl/axi_i2s_adi.vhd" \
+
+vhdl axi_i2s_adi_v1_00_a  \
+"../../../bd/audio_design/ipshared/922f/hdl/fifo_synchronizer.vhd" \
+"../../../bd/audio_design/ipshared/922f/hdl/i2s_rx.vhd" \
+"../../../bd/audio_design/ipshared/922f/hdl/i2s_clkgen.vhd" \
+
+vhdl adi_common_v1_00_a  \
+"../../../bd/audio_design/ipshared/922f/hdl/adi_common/axi_streaming_dma_rx_fifo.vhd" \
+"../../../bd/audio_design/ipshared/922f/hdl/adi_common/axi_ctrlif.vhd" \
+"../../../bd/audio_design/ipshared/922f/hdl/adi_common/pl330_dma_fifo.vhd" \
+"../../../bd/audio_design/ipshared/922f/hdl/adi_common/axi_streaming_dma_tx_fifo.vhd" \
+"../../../bd/audio_design/ipshared/922f/hdl/adi_common/dma_fifo.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../bd/audio_design/ip/audio_design_axi_i2s_adi_0_0/sim/audio_design_axi_i2s_adi_0_0.vhd" \
+"../../../bd/audio_design/ip/audio_design_axi_gpio_0_0/sim/audio_design_axi_gpio_0_0.vhd" \
+"../../../bd/audio_design/ip/audio_design_axi_gpio_0_1/sim/audio_design_axi_gpio_0_1.vhd" \
+"../../../bd/audio_design/ip/audio_design_axi_gpio_0_2/sim/audio_design_axi_gpio_0_2.vhd" \
+"../../../bd/audio_design/ip/audio_design_rst_ps7_0_100M_0/sim/audio_design_rst_ps7_0_100M_0.vhd" \
+"../../../bd/audio_design/sim/audio_design.vhd" \
+
+nosort

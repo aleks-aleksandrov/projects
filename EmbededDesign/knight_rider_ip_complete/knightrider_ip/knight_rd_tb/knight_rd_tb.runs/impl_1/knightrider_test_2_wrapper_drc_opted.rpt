@@ -1,0 +1,42 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Feb 16 01:05:23 2021
+| Host         : DESKTOP-P7INVOJ running 64-bit major release  (build 9200)
+| Command      : report_drc -file knightrider_test_2_wrapper_drc_opted.rpt -pb knightrider_test_2_wrapper_drc_opted.pb -rpx knightrider_test_2_wrapper_drc_opted.rpx
+| Design       : knightrider_test_2_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 1
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/FSM_onehot_n_s[3]_i_2 is driving clock pin of 8 cells. This could lead to large hold time violations. Involved cells are:
+knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/FSM_onehot_n_s_reg[0], knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/FSM_onehot_n_s_reg[1], knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/FSM_onehot_n_s_reg[2], knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/FSM_onehot_n_s_reg[3], knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/z_reg[0], knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/z_reg[1], knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/z_reg[2], knightrider_test_2_i/knight_rd_ip_0/U0/knight_rd_ip_v1_0_S00_AXI_inst/U/z_reg[3]
+Related violations: <none>
+
+
