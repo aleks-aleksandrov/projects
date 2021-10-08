@@ -29,5 +29,5 @@
 
     * **Embeded Systems**
 
-        For my embeded systems class, I had to design hardware in Vivado and export it in the Xilinx SDK and design an embeded program for the corresponding hardware design. The directory contains some of the projects that I had to create throughout the class.
+        For my embeded systems class, I had to design hardware in Vivado and export it in the Xilinx SDK and design an embeded program for the corresponding hardware design. The directory contains some of the projects that I had to create throughout the class. All projects are designed for the Zybo-Z7 board.
 
