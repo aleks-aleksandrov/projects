@@ -31,3 +31,7 @@
 
         For my embeded systems class, I had to design hardware in Vivado and export it in the Xilinx SDK and design an embeded program for the corresponding hardware design. The directory contains some of the projects that I had to create throughout the class. All projects are designed for the Zybo-Z7 board.
 
+    * **Parallel Computing**
+
+        The main goal of the parallel computing class was to teach different parallelization techniques and apply them to a given synchronous code. As a part of this course, we had to use pthreads, OpenMP and CUDA to parallelize the given code and record and report the performance gains/losses. For detailed outline of the specific assignment and results, please check the included report pdfs in every folder.
+
